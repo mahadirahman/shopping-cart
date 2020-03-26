@@ -75,15 +75,6 @@
          </div>
       </div>
    </section>
-   <section id="thankyou-section">
-      <div class="container">
-         <div class="row">
-            <div class="div col-12">
-               <h1 class="text-center">Thank You!</h1>
-            </div>
-         </div>
-      </div>
-   </section>
    <script>
          const minusBtn = document.getElementById("minus-btn");
          minusBtn.addEventListener("click", function() {
@@ -106,7 +97,6 @@
          updateSum("subtotal");
       })
 
-   // Second Item
 
       const minusBtn2 = document.getElementById("minus-btn-2");
       minusBtn2.addEventListener("click", function () {
@@ -129,7 +119,6 @@
          updateSum("subtotal");
       })
 
-   // Second Item
 
       function decrement(quantity, unitPrice, vPrice) {
          let currentValue = document.getElementById(quantity).value;
@@ -191,7 +180,6 @@
       const checkoutBtn = document.getElementById("check-out");
       checkoutBtn.addEventListener("click", function() {
       document.getElementById("main-section").style.display = "none";
-      document.getElementById("thankyou-section").style.display = "block";
    })
    </script>
 </body>
